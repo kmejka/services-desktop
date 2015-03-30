@@ -1,0 +1,6 @@
+{
+  "apps": [{
+    "name": "Local app",
+    "healthchecks": ["http://localhost:8080/healthcheck"]
+  }]
+}
