@@ -7,7 +7,6 @@ class Config
 
   constructor: () ->
     console.log 'created config class instance'
-  loadConfig: () ->
     fileContents = fs.readFileSync('./config/app-config.json', 'utf-8')
     @json = JSON.parse fileContents 
     @apps = @json.apps

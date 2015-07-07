@@ -1,0 +1,14 @@
+# IDEA
+*.iml
+.idea/
+
+# NetBeans
+nb-configuration.xml
+
+# Eclipse related ignores
+.classpath
+.project
+.settings/
+
+atlassian-ide-plugin.xml
+
